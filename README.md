@@ -10,23 +10,6 @@
 - **Webhook Sender** — send messages + embeds via webhook URL
 - **Settings** — accent color picker, default bot token pre-fill
 
-## Build the .exe (Windows)
-
-### 1. Install Python 3.10+
-https://python.org
-
-### 2. Install dependencies
-```
-pip install requests pyinstaller
-```
-
-### 3. Build
-```
-pyinstaller --onefile --windowed --name "Simple DC Tool - by Trippy" main.py
-```
-
-Your `.exe` will be in the `dist/` folder.
-
 ---
 
 ## Getting tokens
